@@ -6,7 +6,7 @@ body, html {
     overflow: hidden;
 }
 .bg-img { 
-    background-image: url("imgs/invite-to-living-room.jpeg");
+    background-image: url("invite-to-living-room.jpeg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
