@@ -1,0 +1,52 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    overflow: hidden;
+}
+.bg-img { 
+    background-image: url("assets/imgs/invite-to-living-room.jpeg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    width: 48vh;
+    height: 427px;
+    background-color: white;
+    position: absolute;
+    padding: 2rem;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 7% auto 7% 12%;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    color: gray;
+}
+
+.content h1{
+    padding-top:0;
+    text-align: left;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.content p{
+    text-align: left;
+    font-size: 1rem;
+}
+.content a{
+    color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        margin: 12% auto;
+    }
+}
