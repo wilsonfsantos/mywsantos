@@ -49,4 +49,10 @@ body, html {
     .content {
         margin: 12% auto;
     }
+    .content h1{
+        font-size: 2rem;
+    }
+    .content p{
+        font-size: 0.9rem;
+    }
 }
